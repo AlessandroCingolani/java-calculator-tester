@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="996a4631-96db-4a5f-9d1b-f47067afa517" name="Changes" comment="Add test assertEquals and assertThrows">
+    <list default="true" id="996a4631-96db-4a5f-9d1b-f47067afa517" name="Changes" comment="Add new test multiply">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ticket/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ticket/TicketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +54,7 @@
     "JUnit.CalculatorTest.executor": "Run",
     "JUnit.CalculatorTest.multiply.executor": "Run",
     "JUnit.CalculatorTest.subtract.executor": "Run",
+    "JUnit.TicketTest.getPriceTicket.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -64,10 +67,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ticket" />
       <recent name="calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.multiply">
+  <component name="RunManager" selected="JUnit.TicketTest.getPriceTicket">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-calculator-tester" />
       <extension name="coverage">
@@ -131,17 +135,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.subtract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicketTest.getPriceTicket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-calculator-tester" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calculator.*" />
+          <option name="PATTERN" value="ticket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="calculator" />
-      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="subtract" />
+      <option name="PACKAGE_NAME" value="ticket" />
+      <option name="MAIN_CLASS_NAME" value="ticket.TicketTest" />
+      <option name="METHOD_NAME" value="getPriceTicket" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TicketTest.getPriceTicket" />
         <item itemvalue="JUnit.CalculatorTest.multiply" />
         <item itemvalue="JUnit.CalculatorTest.divide" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.add" />
-        <item itemvalue="JUnit.CalculatorTest.subtract" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712753313121</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add new test multiply">
+      <option name="closed" value="true" />
+      <created>1712753700800</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712753700800</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,6 +218,22 @@
     <MESSAGE value="Add CalculatorTest" />
     <MESSAGE value="Add all methods" />
     <MESSAGE value="Add test assertEquals and assertThrows" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test assertEquals and assertThrows" />
+    <MESSAGE value="Add new test multiply" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new test multiply" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ticket/TicketTest.java</url>
+          <line>11</line>
+          <properties class="ticket.TicketTest" method="getPriceTicket">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
