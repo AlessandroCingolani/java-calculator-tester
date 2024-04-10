@@ -8,17 +8,22 @@ class CalculatorTest {
 
     @Test
     void add() {
+        assertEquals(6.4f,Calculator.add(3.1f,3.3f),0.0001);
     }
 
     @Test
     void subtract() {
+        assertEquals(5,Calculator.subtract(7.5f,2.5f),0.0001);
     }
 
     @Test
     void divide() {
+        assertEquals(5,Calculator.divide(25.0f,5.0f),0.0001);
+        assertThrows(IllegalArgumentException.class,() -> Calculator.divide(0f,5f));
     }
 
     @Test
     void multiply() {
+        assertEquals(0,Calculator.multiply(0.0f,5.0f),0.0001);
     }
 }
