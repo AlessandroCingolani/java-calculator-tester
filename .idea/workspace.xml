@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="996a4631-96db-4a5f-9d1b-f47067afa517" name="Changes" comment="Add all methods">
+    <list default="true" id="996a4631-96db-4a5f-9d1b-f47067afa517" name="Changes" comment="Add test assertEquals and assertThrows">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calculator/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
   "keyToString": {
     "JUnit.CalculatorTest.add.executor": "Run",
     "JUnit.CalculatorTest.divide.executor": "Run",
+    "JUnit.CalculatorTest.executor": "Run",
     "JUnit.CalculatorTest.multiply.executor": "Run",
     "JUnit.CalculatorTest.subtract.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -68,7 +67,22 @@
       <recent name="calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.divide">
+  <component name="RunManager" selected="JUnit.CalculatorTest.multiply">
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-calculator-tester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-calculator-tester" />
       <extension name="coverage">
@@ -135,8 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.divide" />
         <item itemvalue="JUnit.CalculatorTest.multiply" />
+        <item itemvalue="JUnit.CalculatorTest.divide" />
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.add" />
         <item itemvalue="JUnit.CalculatorTest.subtract" />
       </list>
@@ -175,13 +190,22 @@
       <option name="project" value="LOCAL" />
       <updated>1712751576885</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add test assertEquals and assertThrows">
+      <option name="closed" value="true" />
+      <created>1712753313121</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712753313121</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init class Calculator and pom with dependencies" />
     <MESSAGE value="Add CalculatorTest" />
     <MESSAGE value="Add all methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add all methods" />
+    <MESSAGE value="Add test assertEquals and assertThrows" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test assertEquals and assertThrows" />
   </component>
 </project>
