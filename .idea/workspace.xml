@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="996a4631-96db-4a5f-9d1b-f47067afa517" name="Changes" comment="Add TicketTest">
+    <list default="true" id="996a4631-96db-4a5f-9d1b-f47067afa517" name="Changes" comment="Add TicketTest underage normal ticket and senior discount">
       <change beforePath="$PROJECT_DIR$/src/test/java/ticket/TicketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ticket/TicketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
     "JUnit.CalculatorTest.multiply.executor": "Run",
     "JUnit.CalculatorTest.subtract.executor": "Run",
     "JUnit.TicketTest.getPriceTicket.executor": "Run",
+    "JUnit.TicketTest.testCostruttore.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -70,7 +71,7 @@
       <recent name="calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TicketTest.getPriceTicket">
+  <component name="RunManager" selected="JUnit.TicketTest.testCostruttore">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-calculator-tester" />
       <extension name="coverage">
@@ -82,22 +83,6 @@
       <option name="PACKAGE_NAME" value="calculator" />
       <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-calculator-tester" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="calculator" />
-      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,13 +135,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicketTest.testCostruttore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-calculator-tester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ticket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ticket" />
+      <option name="MAIN_CLASS_NAME" value="ticket.TicketTest" />
+      <option name="METHOD_NAME" value="testCostruttore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TicketTest.testCostruttore" />
         <item itemvalue="JUnit.TicketTest.getPriceTicket" />
         <item itemvalue="JUnit.CalculatorTest.multiply" />
         <item itemvalue="JUnit.CalculatorTest.divide" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.add" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712756775273</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add TicketTest underage normal ticket and senior discount">
+      <option name="closed" value="true" />
+      <created>1712757202265</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712757202265</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,6 +245,7 @@
     <MESSAGE value="Add new test multiply" />
     <MESSAGE value="Add Class Ticket" />
     <MESSAGE value="Add TicketTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TicketTest" />
+    <MESSAGE value="Add TicketTest underage normal ticket and senior discount" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add TicketTest underage normal ticket and senior discount" />
   </component>
 </project>
